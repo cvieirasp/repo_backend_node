@@ -21,7 +21,7 @@ function validateInsert(request, response, next) {
   }
 
   if (!url) {
-    return response.status(400).json({ message: `Campo URL obrigatório!` });
+    return response.status(400).json({ message: 'Campo URL obrigatório!' });
   }
 
   return next();
